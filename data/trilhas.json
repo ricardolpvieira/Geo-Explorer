@@ -1,0 +1,134 @@
+[
+  {
+    "id": "javascript-iniciante",
+    "tecnologia": "JavaScript",
+    "nivel": "iniciante",
+    "descricao": "Aprenda os fundamentos do JavaScript e comece a criar scripts interativos para a web.",
+    "duracao_semanas": 6,
+    "modulos": [
+      { "ordem": 1, "titulo": "Fundamentos da Linguagem", "topicos": ["Variáveis e tipos", "Operadores", "Estruturas condicionais"] },
+      { "ordem": 2, "titulo": "Funções e Escopo", "topicos": ["Declaração de funções", "Arrow functions", "Escopo e closures"] },
+      { "ordem": 3, "titulo": "Arrays e Objetos", "topicos": ["Manipulação de arrays", "Métodos de array", "Objetos literais"] },
+      { "ordem": 4, "titulo": "DOM e Eventos", "topicos": ["Seleção de elementos", "Manipulação do DOM", "Event listeners"] },
+      { "ordem": 5, "titulo": "Assincronismo", "topicos": ["Callbacks", "Promises", "Async/Await"] },
+      { "ordem": 6, "titulo": "Projeto Final", "topicos": ["To-do list interativa", "Consumo de API pública"] }
+    ],
+    "desafios": [
+      { "nivel": "iniciante", "titulo": "Calculadora Simples", "descricao": "Crie uma função que recebe dois números e uma operação (+, -, *, /) e retorna o resultado.", "dica": "Use um switch/case para tratar cada operação." },
+      { "nivel": "iniciante", "titulo": "Verificador de Palíndromo", "descricao": "Escreva uma função que verifica se uma string é um palíndromo (lida igual de frente para trás).", "dica": "Inverta a string e compare com o original." }
+    ]
+  },
+  {
+    "id": "javascript-intermediario",
+    "tecnologia": "JavaScript",
+    "nivel": "intermediario",
+    "descricao": "Aprofunde seus conhecimentos em JavaScript com padrões modernos e boas práticas.",
+    "duracao_semanas": 8,
+    "modulos": [
+      { "ordem": 1, "titulo": "ES6+ Avançado", "topicos": ["Destructuring", "Spread/Rest", "Módulos ES6"] },
+      { "ordem": 2, "titulo": "Programação Funcional", "topicos": ["Map, Filter, Reduce", "Imutabilidade", "Composição de funções"] },
+      { "ordem": 3, "titulo": "Orientação a Objetos", "topicos": ["Classes e herança", "Encapsulamento", "Polimorfismo"] },
+      { "ordem": 4, "titulo": "Testes Unitários", "topicos": ["Jest basics", "Mocks e Stubs", "Cobertura de testes"] },
+      { "ordem": 5, "titulo": "Padrões de Projeto", "topicos": ["Singleton", "Observer", "Factory"] },
+      { "ordem": 6, "titulo": "Performance", "topicos": ["Debounce e Throttle", "Web Workers", "Lazy loading"] }
+    ],
+    "desafios": [
+      { "nivel": "intermediario", "titulo": "Sistema de Carrinho de Compras", "descricao": "Implemente um carrinho de compras usando classes ES6 com métodos para adicionar, remover e calcular o total dos itens.", "dica": "Use Map para armazenar os produtos e quantidades." },
+      { "nivel": "intermediario", "titulo": "Pipeline Funcional", "descricao": "Crie uma função pipe() que encadeia múltiplas funções, passando o resultado de uma como entrada da próxima.", "dica": "Use Array.reduce() para compor as funções." }
+    ]
+  },
+  {
+    "id": "python-iniciante",
+    "tecnologia": "Python",
+    "nivel": "iniciante",
+    "descricao": "Dê seus primeiros passos em Python, uma linguagem poderosa e versátil para automação, dados e IA.",
+    "duracao_semanas": 6,
+    "modulos": [
+      { "ordem": 1, "titulo": "Introdução ao Python", "topicos": ["Instalação e ambiente", "Sintaxe básica", "Tipos de dados"] },
+      { "ordem": 2, "titulo": "Estruturas de Controle", "topicos": ["if/elif/else", "Loops for e while", "List comprehensions"] },
+      { "ordem": 3, "titulo": "Funções e Módulos", "topicos": ["Definição de funções", "Parâmetros e retorno", "Importação de módulos"] },
+      { "ordem": 4, "titulo": "Estruturas de Dados", "topicos": ["Listas", "Dicionários", "Tuplas e Sets"] },
+      { "ordem": 5, "titulo": "Manipulação de Arquivos", "topicos": ["Leitura e escrita", "CSV e JSON", "Tratamento de erros"] },
+      { "ordem": 6, "titulo": "Projeto Final", "topicos": ["Gerador de relatório em CSV", "Script de automação"] }
+    ],
+    "desafios": [
+      { "nivel": "iniciante", "titulo": "Gerador de Senha", "descricao": "Crie uma função que gera uma senha aleatória com letras maiúsculas, minúsculas, números e símbolos.", "dica": "Use o módulo random e string do Python." },
+      { "nivel": "iniciante", "titulo": "Contador de Palavras", "descricao": "Escreva um programa que lê um texto e retorna um dicionário com a frequência de cada palavra.", "dica": "Use o método split() e um dicionário para contar." }
+    ]
+  },
+  {
+    "id": "python-avancado",
+    "tecnologia": "Python",
+    "nivel": "avancado",
+    "descricao": "Domine Python avançado com padrões de projeto, concorrência e desenvolvimento de APIs.",
+    "duracao_semanas": 10,
+    "modulos": [
+      { "ordem": 1, "titulo": "Python Avançado", "topicos": ["Decorators", "Context managers", "Metaclasses"] },
+      { "ordem": 2, "titulo": "Concorrência", "topicos": ["Threads e Processos", "Asyncio", "GIL e seus limites"] },
+      { "ordem": 3, "titulo": "APIs com FastAPI", "topicos": ["Rotas e endpoints", "Pydantic models", "Autenticação JWT"] },
+      { "ordem": 4, "titulo": "Banco de Dados", "topicos": ["SQLAlchemy ORM", "Migrações com Alembic", "Queries otimizadas"] },
+      { "ordem": 5, "titulo": "Testes e Qualidade", "topicos": ["Pytest avançado", "Fixtures", "TDD na prática"] },
+      { "ordem": 6, "titulo": "Deploy e DevOps", "topicos": ["Docker", "CI/CD com GitHub Actions", "Monitoramento"] }
+    ],
+    "desafios": [
+      { "nivel": "avancado", "titulo": "API REST com FastAPI", "descricao": "Implemente uma API REST com autenticação JWT, CRUD completo de usuários e testes automatizados.", "dica": "Use Depends() para injeção de dependências e pytest-asyncio para testar endpoints." },
+      { "nivel": "avancado", "titulo": "Worker Assíncrono", "descricao": "Crie um worker com asyncio que processa uma fila de tarefas em paralelo com controle de concorrência.", "dica": "Use asyncio.Semaphore para limitar o número de tarefas simultâneas." }
+    ]
+  },
+  {
+    "id": "react-iniciante",
+    "tecnologia": "React",
+    "nivel": "iniciante",
+    "descricao": "Aprenda a construir interfaces modernas com React, a biblioteca mais popular para front-end.",
+    "duracao_semanas": 7,
+    "modulos": [
+      { "ordem": 1, "titulo": "Fundamentos do React", "topicos": ["JSX", "Componentes funcionais", "Props"] },
+      { "ordem": 2, "titulo": "Estado e Ciclo de Vida", "topicos": ["useState", "useEffect", "Renderização condicional"] },
+      { "ordem": 3, "titulo": "Eventos e Formulários", "topicos": ["Handlers de eventos", "Formulários controlados", "Validação básica"] },
+      { "ordem": 4, "titulo": "Listas e Chaves", "topicos": ["Renderização de listas", "Keys únicas", "Fragmentos"] },
+      { "ordem": 5, "titulo": "Estilização", "topicos": ["CSS Modules", "Styled Components", "Tailwind CSS basics"] },
+      { "ordem": 6, "titulo": "Projeto Final", "topicos": ["App de lista de tarefas", "Consumo de API com fetch"] }
+    ],
+    "desafios": [
+      { "nivel": "iniciante", "titulo": "Contador com React", "descricao": "Crie um componente de contador que incrementa, decrementa e reseta o valor usando useState.", "dica": "Use um único estado numérico e três funções handlers." },
+      { "nivel": "iniciante", "titulo": "Formulário de Cadastro", "descricao": "Implemente um formulário com campos de nome, e-mail e senha com validação básica antes do envio.", "dica": "Controle o estado de cada campo e exiba mensagens de erro abaixo dos inputs." }
+    ]
+  },
+  {
+    "id": "nodejs-intermediario",
+    "tecnologia": "Node.js",
+    "nivel": "intermediario",
+    "descricao": "Construa aplicações back-end robustas com Node.js, Express e boas práticas de API.",
+    "duracao_semanas": 8,
+    "modulos": [
+      { "ordem": 1, "titulo": "Node.js Core", "topicos": ["Event loop", "Módulos nativos", "Streams e Buffers"] },
+      { "ordem": 2, "titulo": "Express.js", "topicos": ["Rotas e middlewares", "REST API", "Error handling"] },
+      { "ordem": 3, "titulo": "Banco de Dados", "topicos": ["MongoDB com Mongoose", "Prisma ORM", "PostgreSQL"] },
+      { "ordem": 4, "titulo": "Autenticação", "topicos": ["JWT", "OAuth 2.0", "Refresh tokens"] },
+      { "ordem": 5, "titulo": "Testes de API", "topicos": ["Supertest", "Mocking", "Testes de integração"] },
+      { "ordem": 6, "titulo": "Deploy", "topicos": ["Variáveis de ambiente", "PM2", "Deploy no Railway"] }
+    ],
+    "desafios": [
+      { "nivel": "intermediario", "titulo": "API de Blog", "descricao": "Crie uma API RESTful para um blog com CRUD de posts, autenticação JWT e paginação nos resultados.", "dica": "Separe as rotas em arquivos distintos e use middlewares para autenticação." },
+      { "nivel": "intermediario", "titulo": "Upload de Arquivos", "descricao": "Implemente um endpoint que recebe um arquivo de imagem, valida o tipo e tamanho, e salva localmente.", "dica": "Use o pacote multer para lidar com multipart/form-data." }
+    ]
+  },
+  {
+    "id": "sql-iniciante",
+    "tecnologia": "SQL",
+    "nivel": "iniciante",
+    "descricao": "Aprenda a consultar, inserir e manipular dados em bancos de dados relacionais com SQL.",
+    "duracao_semanas": 5,
+    "modulos": [
+      { "ordem": 1, "titulo": "Fundamentos de SQL", "topicos": ["SELECT básico", "WHERE e filtros", "ORDER BY e LIMIT"] },
+      { "ordem": 2, "titulo": "Manipulação de Dados", "topicos": ["INSERT, UPDATE, DELETE", "Transações", "Constraints"] },
+      { "ordem": 3, "titulo": "Relacionamentos", "topicos": ["JOINs (INNER, LEFT, RIGHT)", "Chaves primárias e estrangeiras", "Normalização"] },
+      { "ordem": 4, "titulo": "Funções e Agregações", "topicos": ["COUNT, SUM, AVG", "GROUP BY e HAVING", "Subqueries"] },
+      { "ordem": 5, "titulo": "Projeto Final", "topicos": ["Modelagem de e-commerce", "Consultas analíticas"] }
+    ],
+    "desafios": [
+      { "nivel": "iniciante", "titulo": "Consulta de Vendas", "descricao": "Dado um schema de vendas (clientes, produtos, pedidos), escreva queries para: listar os 5 clientes que mais compraram, o produto mais vendido e o total de vendas por mês.", "dica": "Use GROUP BY com funções de agregação e ordene os resultados com ORDER BY." },
+      { "nivel": "iniciante", "titulo": "Sistema de Biblioteca", "descricao": "Modele e crie as tabelas de um sistema de biblioteca com livros, autores e empréstimos. Insira dados de exemplo e consulte os livros emprestados por usuário.", "dica": "Defina as foreign keys corretamente e use JOINs para cruzar os dados." }
+    ]
+  }
+]

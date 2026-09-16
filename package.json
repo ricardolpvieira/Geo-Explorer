@@ -1,0 +1,30 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Explorador de trilhas de aprendizagem com desafios de código e certificados fictícios.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "mcp": "node mcp/server.js"
+  },
+  "keywords": [
+    "geo-explorer",
+    "trilhas",
+    "aprendizagem",
+    "mcp",
+    "dio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
