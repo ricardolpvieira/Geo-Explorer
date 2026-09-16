@@ -40,4 +40,14 @@ describe("buscarDesafio", () => {
     const desafio = buscarDesafio("Python", "avançado");
     expect(desafio).not.toBeNull();
   });
+
+  test("retorna null quando nível não é informado", () => {
+    const desafio = buscarDesafio("JavaScript", undefined);
+    expect(desafio).toBeNull();
+  });
+
+  test("retorna null quando tecnologia não é informada", () => {
+    const desafio = buscarDesafio(undefined, "iniciante");
+    expect(desafio).toBeNull();
+  });
 });

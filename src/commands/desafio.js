@@ -7,6 +7,8 @@ import { carregarTrilhas } from "./trilha.js";
  * @returns {object|null}
  */
 export function buscarDesafio(tecnologia, nivel) {
+  if (!tecnologia || !nivel) return null;
+
   const trilhas = carregarTrilhas();
 
   const normalizar = (str) =>

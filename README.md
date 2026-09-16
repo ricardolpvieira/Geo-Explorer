@@ -126,7 +126,7 @@ O projeto utiliza **Jest** com suporte a ES Modules. Os testes cobrem:
 - `desafio`: busca por desafio, tratamento case-insensitive, tecnologia/nível inexistente
 - `certificado`: geração de certificado, formato do código, validação de campos obrigatórios
 
-**21 testes** no total, todos passando. ✅
+**23 testes** no total, todos passando. ✅
 
 ---
 
@@ -181,6 +181,15 @@ npm run mcp
 - Como escrever e organizar testes com **Jest** em projetos ESM
 - Como criar um **Servidor MCP** usando o SDK oficial e expor ferramentas para agentes de IA
 - A importância de normalizar entradas do usuário (acentos, maiúsculas) para uma boa experiência
+
+---
+
+## 👤 Autor
+
+**Ricardo L P Vieira**
+- 🌐 [ricardolpvieira.com.br](https://ricardolpvieira.com.br)
+- 📧 ricardo@ricardolpvieira.com.br
+- 🐙 [@ricardolpvieira](https://github.com/ricardolpvieira)
 
 ---
 

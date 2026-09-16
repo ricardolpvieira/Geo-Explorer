@@ -16,10 +16,15 @@
     "mcp",
     "dio"
   ],
-  "author": "",
+  "author": {
+    "name": "Ricardo L P Vieira",
+    "email": "ricardo@ricardolpvieira.com.br",
+    "url": "https://ricardolpvieira.com.br"
+  },
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.12.1"
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.0"
   },
   "devDependencies": {
     "jest": "^29.7.0"
